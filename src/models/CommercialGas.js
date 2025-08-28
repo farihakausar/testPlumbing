@@ -40,4 +40,4 @@ const CommercialGasSchema = new mongoose.Schema({
     }
 }, { strict: false });
 
-module.exports = mongoose.model('CommercialGas', CommercialGasSchema,commercialgas);
+module.exports = mongoose.model('CommercialGas', CommercialGasSchema,"commercialgas");

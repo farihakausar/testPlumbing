@@ -35,4 +35,4 @@ const PlumbingPageSchema = new mongoose.Schema({
     }
 }, { strict: false });
 
-module.exports = mongoose.model('PlumbingPage', PlumbingPageSchema,plumbingpages);
+module.exports = mongoose.model('PlumbingPage', PlumbingPageSchema,"plumbingpages");

@@ -49,4 +49,4 @@ const BoilerProtectionPlanSchema = new mongoose.Schema({
     }
 }, { strict: false }); // strict: false allows data not defined in schema
 
-module.exports = mongoose.model('BoilerProtectionPlan', BoilerProtectionPlanSchema,boilerprotectionplans);
+module.exports = mongoose.model('BoilerProtectionPlan', BoilerProtectionPlanSchema,"boilerprotectionplans");
