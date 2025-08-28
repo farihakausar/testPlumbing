@@ -1,0 +1,62 @@
+{
+  "images": {
+    "infoSection1": "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=800",
+    "infoSection2": "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=800",
+    "gasSafeLogo": "https://via.placeholder.com/120x120.png?text=Gas+Safe"
+  },
+  "hero": {
+    "title": "LOCAL BOILER <span class=\"highlight\">SERVICES</span> SOUTHAMPTON",
+    "listItems": [
+      "Drains Unblocked",
+      "Drain Jetting & Clearing",
+      "CCTV Drain Surveys",
+      "Toilets, Sinks & Baths Unblocked",
+      "Drain Repairs & Maintenance",
+      "All Work Guaranteed"
+    ],
+    "formTitle": "NEED EMERGENCY HELP?",
+    "formSubtitle": "For the fastest response, call us directly at <a href=\"tel:08000156171\">0800 015 61 71</a> or complete the form below and we'll call you back within 5 minutes."
+  },
+  "infoSection1": {
+    "title": "APPROVED BOILER SERVICES SOUTHAMPTON",
+    "content1": "C.S. Plumbing and Heating Services Ltd is a reputable company offering a wide range of boiler services across Southampton. Our team of Gas Safe certified engineers is dedicated to providing professional and reliable service, adhering to the highest standards of safety and quality.",
+    "content2": "Boilers are essential for supplying hot water and efficient heating in your home. That's why we offer a comprehensive array of boiler services to maintain and repair your boiler to ensure your boiler runs smoothly and efficiently. Our top priority is to ensure your boiler runs smoothly and efficiently.",
+    "buttonText": "Call",
+    "buttonHighlight": "0800 015 61 71 For A Free Quote"
+  },
+  "infoSection2": {
+    "title": "TRUSTED CUSTOMER CARE IN SOUTHAMPTON",
+    "content1": "Our experienced and knowledgeable Customer Care Team works closely with our professional technical engineers to resolve any unexpected issues quickly and efficiently with your central heating systems. They are dedicated to ensuring smooth communication between our clients and homeowners.",
+    "content2": "For peace of mind, we offer our Home Guard support, which includes routine boiler maintenance, annual boiler servicing, and a heating system health check. Additionally, we take care of your heating controls.",
+    "footer": "SOUTHAMPTON FLEXIBLE PAYMENT OPTIONS",
+    "buttonText": "Find Out More",
+    "buttonHighlight": "About Our Home Guard Services"
+  },
+  "testimonials": {
+    "title": "GAS SAFE REGISTERED ENGINEERS SOUTHAMPTON",
+    "subtitle": "C.S. Plumbing and Heating Services Ltd are fully qualified and approved engineers with <span class=\"highlight\">Gas Safe Register (No 679688)</span>, the UK's largest certification board for gas engineers. This means we are vetted and reviewed by strict assessments.",
+    "trustindex": "Trustindex rating score: <strong>4.8</strong> of 5, based on <strong>19 reviews</strong>."
+  },
+  "services": {
+    "title": "OUR AFFORDABLE & EFFECTIVE BOILER SERVICES IN SOUTHAMPTON",
+    "subtitle": "At C.S. Plumbing and Heating Services Ltd, we offer approved and cost-effective boiler services tailored to your needs. Whether you require routine maintenance, emergency repairs, or new installations, we ensure efficient, reliable, and budget-friendly services. Our services include:",
+    "items": [
+      { "icon": "FaBuilding", "text": "BOILERS INSTALLATIONS" },
+      { "icon": "FaCog", "text": "BOILER SERVICING" },
+      { "icon": "FaWrench", "text": "BOILER REPAIRS" },
+      { "icon": "FaFireAlt", "text": "CENTRAL HEATING" },
+      { "icon": "FaClipboardCheck", "text": "GAS SAFETY CHECKS" }
+    ]
+  },
+  "contact": {
+    "title": "Request a callback",
+    "subtitle": "Tell us briefly what you need help with and we’ll get back to you as soon as possible.",
+    "bullets": [
+      "Same‑day emergency slots",
+      "Gas Safe Registered engineers",
+      "Clear pricing — no surprises"
+    ]
+  }
+}
+
+
