@@ -4,7 +4,6 @@ const cors = require("cors");
 const mongoose = require("mongoose");
 
 const app = express();
-console.log("Mongo URI:", process.env.MONGO_URI);
 
 
 const connectDB = async () => {
@@ -39,14 +38,12 @@ app.get("/", (req, res) => {
   res.json({ message: "🚀 Welcome to my API running on Vercel!" });
 });
 
-// --- Helper GET ---
 const getDocument = async (req, res, Model) => {
   try {
     await connectDB();
-    let doc = await Model.findOne();
+    const doc = await Model.findOne();
     if (!doc) {
-      doc = await Model.create({});
-      console.log(`Initialized ${Model.modelName}`);
+      return res.status(404).json({ message: `${Model.modelName} not found` });
     }
     res.json(doc);
   } catch (err) {
@@ -54,6 +51,7 @@ const getDocument = async (req, res, Model) => {
     res.status(500).json({ message: `Error fetching ${Model.modelName}` });
   }
 };
+
 
 // --- Helper POST ---
 const updateDocument = async (req, res, Model) => {
