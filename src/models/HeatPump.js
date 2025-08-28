@@ -55,4 +55,4 @@ const HeatPumpSchema = new mongoose.Schema({
     }
 }, { strict: false });
 
-module.exports = mongoose.model('HeatPump', HeatPumpSchema);
+module.exports = mongoose.model('HeatPump', HeatPumpSchema,heatpumps);

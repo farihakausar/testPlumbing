@@ -14,4 +14,4 @@ const ContactPageSchema = new mongoose.Schema({
     }
 }, { strict: false });
 
-module.exports = mongoose.model('ContactPage', ContactPageSchema);
+module.exports = mongoose.model('ContactPage', ContactPageSchema,contactpages);

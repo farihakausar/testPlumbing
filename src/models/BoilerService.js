@@ -31,4 +31,4 @@ const BoilerServiceSchema = new mongoose.Schema({
     }
 }, { strict: false });
 
-module.exports = mongoose.model('BoilerService', BoilerServiceSchema);
+module.exports = mongoose.model('BoilerService', BoilerServiceSchema, 'boilerservices');

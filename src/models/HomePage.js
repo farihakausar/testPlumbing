@@ -45,4 +45,4 @@ const HomePageSchema = new mongoose.Schema({
     }
 }, { strict: false });
 
-module.exports = mongoose.model('HomePage', HomePageSchema);
+module.exports = mongoose.model('HomePage', HomePageSchema,homepages);
